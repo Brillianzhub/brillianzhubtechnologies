@@ -121,7 +121,7 @@ export function ContactForm({
 
         <button
           type="submit"
-          className="rounded-lg bg-accent px-6 py-3 text-sm font-medium text-accent-ink"
+          className="rounded-lg bg-accent px-6 py-3 text-sm font-medium text-accent-ink hover:bg-accent-hover"
         >
           Send message
         </button>

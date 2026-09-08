@@ -19,7 +19,7 @@ export function Hero() {
       <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
         <a
           href="#products"
-          className="w-full rounded-lg bg-accent px-6 py-3 text-sm font-medium text-accent-ink sm:w-auto"
+          className="w-full rounded-lg bg-accent px-6 py-3 text-sm font-medium text-accent-ink hover:bg-accent-hover sm:w-auto"
         >
           See our products
         </a>
