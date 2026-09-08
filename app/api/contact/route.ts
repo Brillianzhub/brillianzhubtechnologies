@@ -66,7 +66,7 @@ export async function POST(request: NextRequest) {
   try {
     const resend = new Resend(apiKey);
     await resend.emails.send({
-      from: "Brillianzhub website <onboarding@resend.dev>",
+      from: "Brillianzhub website <noreply@brillianzhub.com>",
       to: toEmail,
       replyTo: result.data.email,
       subject: `New contact form message from ${result.data.name}`,

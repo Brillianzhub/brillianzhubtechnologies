@@ -33,7 +33,13 @@ const organizationJsonLd = {
   legalName: company.legalName,
   url: company.domain,
   email: company.email,
-  address: { "@type": "PostalAddress", addressCountry: "NG" },
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: company.address.street,
+    addressLocality: company.address.city,
+    addressRegion: company.address.region,
+    addressCountry: "NG",
+  },
   sameAs: ["https://superprep.pro", "https://realvistaproperties.com"],
 };
 

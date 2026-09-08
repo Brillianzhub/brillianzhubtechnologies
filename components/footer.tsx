@@ -21,9 +21,9 @@ export function Footer() {
           <div>
             <p className="text-sm font-medium text-ink">{company.legalName}</p>
             <p className="mt-3 font-mono text-xs text-muted">
-              RC {company.rcNumber}
+              {company.rcNumber}
             </p>
-            <p className="mt-1 text-sm text-muted">{company.address}</p>
+            <p className="mt-1 text-sm text-muted">{company.addressLine}</p>
             <p className="mt-3 text-sm text-muted">
               <a href={`mailto:${company.email}`} className="hover:text-ink">
                 {company.email}
