@@ -34,13 +34,13 @@ export const privacyContent: {
     {
       heading: "Your rights",
       body: [
-        "You can ask us what data we hold about you, ask us to correct it, or ask us to delete it, at any time, by emailing hello@brillianzhub.com.",
+        "You can ask us what data we hold about you, ask us to correct it, or ask us to delete it, at any time, by emailing contact@brillianzhub.com.",
       ],
     },
     {
       heading: "Contact",
       body: [
-        "For any question about this policy or a data request, write to hello@brillianzhub.com.",
+        "For any question about this policy or a data request, write to contact@brillianzhub.com.",
       ],
     },
   ],
@@ -87,7 +87,7 @@ export const termsContent: {
     },
     {
       heading: "Contact",
-      body: ["Questions about these terms can be sent to hello@brillianzhub.com."],
+      body: ["Questions about these terms can be sent to contact@brillianzhub.com."],
     },
   ],
 };
@@ -109,17 +109,17 @@ export const supportContent: {
     {
       product: "SuperPrep",
       detail:
-        "For account, billing, or tutoring questions, email hello@brillianzhub.com with \"SuperPrep\" in the subject line, or use in-app support under Settings → Help.",
+        "For account, billing, or tutoring questions, email contact@brillianzhub.com with \"SuperPrep\" in the subject line, or use in-app support under Settings → Help.",
     },
     {
       product: "Realvista Properties",
       detail:
-        "For listing, account, or transaction questions, email hello@brillianzhub.com with \"Realvista\" in the subject line, or use in-app support under Settings → Help.",
+        "For listing, account, or transaction questions, email contact@brillianzhub.com with \"Realvista\" in the subject line, or use in-app support under Settings → Help.",
     },
     {
       product: "IPrayDaily",
       detail:
-        "For questions about content or app functionality, email hello@brillianzhub.com with \"IPrayDaily\" in the subject line.",
+        "For questions about content or app functionality, email contact@brillianzhub.com with \"IPrayDaily\" in the subject line.",
     },
   ],
 };

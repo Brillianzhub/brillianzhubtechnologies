@@ -9,7 +9,7 @@ export const company = {
     country: "Nigeria",
   },
   addressLine: "No. 7 MCC Road, Owerri, Imo State, Nigeria",
-  email: "hello@brillianzhub.com",
+  email: "contact@brillianzhub.com",
   domain: "https://brillianzhub.com",
   tagline: "We build digital platforms for Africa and its diaspora",
   subhead:
